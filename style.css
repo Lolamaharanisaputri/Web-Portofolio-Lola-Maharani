@@ -1,0 +1,98 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+    background-color: #f8f0f6; /* Background soft pink */
+    color: #333;
+}
+
+header {
+    text-align: center;
+    padding: 20px;
+    background-color: #ffccf2; /* Pink header */
+}
+
+.profile-photo-container {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 15px;
+}
+
+.profile-photo img {
+    width: 120px;
+    height: 120px;
+    border-radius: 50%;
+    border: 4px solid #000000; /* Darker pink border */
+}
+
+h1 {
+    color: #ff0084; /* Darker pink for main title */
+    margin: 10px 0;
+}
+
+h2 {
+    color: #d5006d; /* Darker pink for section titles */
+    border-bottom: 2px solid #d5006d;
+    padding-bottom: 5px;
+}
+
+nav {
+    background-color: #ffccf2; /* Navbar pink */
+    padding: 10px;
+    text-align: center;
+}
+
+nav ul {
+    list-style: none;
+    padding: 0;
+}
+
+nav ul li {
+    display: inline;
+    margin: 0 10px;
+}
+
+nav a {
+    color: #d5006d; /* Darker pink for links */
+    text-decoration: none;
+}
+
+nav a:hover {
+    text-decoration: underline;
+}
+
+section {
+    margin: 20px;
+    padding: 15px;
+    background-color: #ffffff; /* White background for sections */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-between;
+}
+
+.card {
+    flex: 1 1 300px; /* Flex basis for responsiveness */
+    margin: 10px;
+    padding: 15px;
+    background-color: #ffefff; /* Light pink for cards */
+    border-radius: 10px;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+}
+
+.card h3 {
+    color: #f6007f;
+}
+
+.work-image {
+    width: 30%;
+    height: auto;
+    border-radius: 20px;
+    margin-top: 5px;
+}
+
+
